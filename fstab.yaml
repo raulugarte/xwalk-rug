@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://author-p107058-e1001010.adobeaemcloud.com/bin/franklin.delivery/raulugarte/xwalk-rug/main
+    url: https://author-p72302-e634773.adobeaemcloud.com/bin/franklin.delivery/raulugarte/xwalk-rug/main
     type: markup
     suffix: ".html?wcmmode=disabled"
