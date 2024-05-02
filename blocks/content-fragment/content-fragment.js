@@ -8,7 +8,7 @@ function getMetadata(name) {
 
 //const aem = "http://localhost:4503";
 //const aem = "https://publish-p107058-e1001010.adobeaemcloud.com";
-  const aem = "https://publish-p72302-e634773.adobeaemcloud.com";
+  const aem = "https://author-p72302-e634773.adobeaemcloud.com";
 
 export default function decorate(block) {
 
@@ -27,7 +27,7 @@ export default function decorate(block) {
   quoteDiv.replaceWith(adventureDiv);
 
   /* RUG */
-  const slug2 = slugTemp.toString().slice(91,116);
+  const slug2 = slugTemp.toString().slice(89,114);
   const requestRUG = aem + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug2;
 
   //fetch(aem + '/graphql/execute.json/aem-demo-assets/adventures-by-slug;slug=' + slug)
