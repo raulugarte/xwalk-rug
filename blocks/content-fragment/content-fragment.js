@@ -30,8 +30,11 @@ export default function decorate(block) {
   const slug2 = slug[3].slice(slug[3].indexOf('>')+1,300);
   const requestRUG = aem + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug2;
 
+  console.log(slug2);
+  console.log(requestRUG);
+
   //fetch(aem + '/graphql/execute.json/aem-demo-assets/adventures-by-slug;slug=' + slug)
-fetch(aem + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug)
+fetch(aem + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug2)
 .then(response => response.json())
 .then(response => {
 
