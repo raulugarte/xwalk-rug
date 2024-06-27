@@ -86,9 +86,11 @@ main .carousel-buttons button {
   padding: 0;
   margin: 5px;
   border-radius: 5px;
-  background-color: var(--highlight-background-color);
+  /* background-color: var(--highlight-background-color); */
+  background-color: #d8d8d8;
 }
 
 main .carousel-buttons button.selected {
-  background-color: var(--link-color);
+  /* background-color: var(--link-color); */
+  background-color: #faad00;
 }
