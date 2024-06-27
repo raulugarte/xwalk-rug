@@ -28,7 +28,7 @@
       "hero",
       "cards",
       "columns",
-"carousel"
+      "carousel"
     ]
   },
   {
@@ -55,7 +55,8 @@
     "hero",
     "cards",
     "columns",
-    "quote"
+    "quote",
+    "carousel"
    ]
 },
 
@@ -65,14 +66,15 @@
       "id": "section",
       "components": [
             "text",
-    "image",
-    "button",
-    "title",
-    "hero",
-    "cards",
-    "columns",
-    "quote",
-        "content-fragment"
+            "image",
+            "button",
+            "title",
+            "hero",
+            "cards",
+            "columns",
+            "quote",
+            "content-fragment",
+            "carousel"
       ]
     }
 
