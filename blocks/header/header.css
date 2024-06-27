@@ -148,7 +148,9 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  /* RUG 
+  width: 128px; */
+  width: 56px;
   height: auto;
 }
 
