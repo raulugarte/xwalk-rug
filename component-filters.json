@@ -76,16 +76,7 @@
             "content-fragment",
             "carousel"
       ]
-    },
-
-    {
-    "id": "featured-services",
-    "components": ["service"]
-  },
-  {
-    "id": "related-articles",
-    "components": ["article"]
-  }
+    }
 
   
 ]
