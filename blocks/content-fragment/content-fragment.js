@@ -47,7 +47,8 @@ document.getElementById(adventureDiv.id).innerHTML = "<section><img src=" + back
 const adventureTitle = response.data.articleList.items[0].title;
 document.getElementById(adventureDiv.id).innerHTML += "<section><h3>"+ adventureTitle + "</h3></section>";
 
-const adventureDesc = response.data.adventureList.items[0].description.plaintext;
+//const adventureDesc = response.data.adventureList.items[0].description.plaintext;
+const adventureDesc = response.data.articleList.items[0].main.plaintext;
 document.getElementById(adventureDiv.id).innerHTML += "<section>" + adventureDesc + "</section>";
 
 const adventureType = response.data.adventureList.items[0].adventureType;
