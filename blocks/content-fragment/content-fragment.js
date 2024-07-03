@@ -35,11 +35,11 @@ export default function decorate(block) {
   console.log(requestRUG);
 
   //fetch(aem + '/graphql/execute.json/aem-demo-assets/adventures-by-slug;slug=' + slug)
-fetch(aem + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug2)
+fetch(aem + '/graphql/execute.json/bs/article-by-slug;slug=' + slug2)
 .then(response => response.json())
 .then(response => {
 
-const backgroundImage = response.data.adventureList.items[0].primaryImage._publishUrl;
+const backgroundImage = response.data.articleList.items[0].image._publishUrl;
 document.getElementById(adventureDiv.id).innerHTML = "<section><img src=" + backgroundImage + "></section>";  
 
 const adventureTitle = response.data.adventureList.items[0].title;
