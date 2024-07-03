@@ -43,7 +43,8 @@ fetch(aem + '/graphql/execute.json/bs/article-by-slug;slug=' + slug2)
 const backgroundImage = response.data.articleList.items[0].image._publishUrl;
 document.getElementById(adventureDiv.id).innerHTML = "<section><img src=" + backgroundImage + "></section>";  
 
-const adventureTitle = response.data.adventureList.items[0].title;
+//const adventureTitle = response.data.adventureList.items[0].title;
+const adventureTitle = response.data.articleList.items[0].title;
 document.getElementById(adventureDiv.id).innerHTML += "<section><h3>"+ adventureTitle + "</h3></section>";
 
 const adventureDesc = response.data.adventureList.items[0].description.plaintext;
